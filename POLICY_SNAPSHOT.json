@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-10-19",
+  "android_profiles": {
+    "standard": {
+      "label": "Standard Android app",
+      "required_target_api": 36,
+      "description": "General Google Play apps: new apps and updates submitted from 31 August 2026."
+    },
+    "wear-os": {
+      "label": "Wear OS",
+      "required_target_api": 35,
+      "description": "Wear OS has a separate target API requirement."
+    },
+    "automotive": {
+      "label": "Android Automotive OS",
+      "required_target_api": 35,
+      "description": "Android Automotive OS has a separate target API requirement."
+    },
+    "android-tv": {
+      "label": "Android TV",
+      "required_target_api": 34,
+      "description": "Android TV has a separate target API requirement."
+    },
+    "android-xr": {
+      "label": "Android XR",
+      "required_target_api": 34,
+      "description": "Android XR has a separate target API requirement."
+    }
+  },
+  "official_sources": {
+    "google_target_api": "https://support.google.com/googleplay/android-developer/answer/11926878",
+    "google_user_data": "https://support.google.com/googleplay/android-developer/answer/10144311",
+    "google_account_deletion": "https://support.google.com/googleplay/android-developer/answer/13327111",
+    "apple_app_review": "https://developer.apple.com/app-store/review/guidelines/",
+    "apple_account_deletion": "https://developer.apple.com/support/offering-account-deletion-in-your-app/",
+    "apple_upload_builds": "https://developer.apple.com/help/app-store-connect/manage-builds/upload-builds",
+    "apple_privacy_manifests": "https://developer.apple.com/documentation/bundleresources/privacy-manifest-files"
+  },
+  "disclaimer": "This dated snapshot is a helper, not an official policy engine. Recheck the linked platform documentation before every submission."
+}
