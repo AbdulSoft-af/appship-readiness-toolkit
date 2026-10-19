@@ -1,6 +1,9 @@
 <div align="center">
 
-  <h1>🚀 AppShip Readiness Toolkit</h1>
+ <p align="center">
+  <img src="assets/appship-logo.svg" width="280" alt="AppShip logo">
+</p>
+
 
   <p>
     <strong>Find problems early. Fix them carefully. Ship with confidence.</strong>
@@ -12,61 +15,20 @@
     Google Play and Apple App Store submission.
   </p>
 
-  <p>
-    <img src="https://img.shields.io/badge/Version-3.1.0--Beta-2563EB?style=for-the-badge"
-         alt="Version 3.1.0 Beta">
 
-    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"
-         alt="Python 3.10 or newer">
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-    <img src="https://img.shields.io/badge/AI-Ollama%20Optional-64748B?style=for-the-badge"
-         alt="Optional local AI">
+![AI](https://img.shields.io/badge/AI-Ollama%20Optional-64748B?style=for-the-badge)
 
-    <img src="https://img.shields.io/badge/Focus-Android%20%26%20iOS-16A34A?style=for-the-badge"
-         alt="Android and iOS">
-  </p>
+![Platform](https://img.shields.io/badge/Platform-Android%20%26%20iOS-16A34A?style=for-the-badge)
 
-  <p>
-    <a href="https://github.com/AbdulSoft/appship-readiness-toolkit/stargazers">
-      <img src="https://img.shields.io/github/stars/YOUR_USERNAME/appship-readiness-toolkit?style=social"
-           alt="GitHub Stars">
-    </a>
-  </p>
-
-  <p>
-    <a href="#features">Features</a> ·
-    <a href="#getting-started">Getting Started</a> ·
-    <a href="#security">Security</a> ·
-    <a href="#contributing">Contributing</a>
-  </p>
+[![GitHub Stars](https://img.shields.io/github/stars/AbdulSoft-af/appship-readiness-toolkit?style=social)](https://github.com/AbdulSoft-af/appship-readiness-toolkit/stargazers)
+  
 
 </div>
 
 ---
 
-## About AppShip
-
-AppShip is a developer tool for checking mobile app projects
-before release. It helps identify common configuration issues,
-review potential security risks, run available build and test
-tools, and generate reports that make problems easier to understand.
-
-The project also supports optional local AI assistance through
-Ollama. Suggested code changes can be reviewed before they are
-applied to a separate working copy.
-
-AppShip is being developed to make the app release process
-easier to understand and less error-prone.
-
-> **Note:** AppShip cannot guarantee approval by Google Play or
-> Apple App Store. Build results, signing, device testing, privacy
-> requirements, and store policies must still be verified.
-
----
-
-<p align="center">
-  <img src="assets/appship-logo.svg" width="280" alt="AppShip logo">
-</p>
 
 # AppShip Readiness Toolkit
 
@@ -204,17 +166,8 @@ examples/sample_android_project/ Android demo project
 tests/                         Automated tests
 .github/workflows/              CI workflows
 README.md                       Project guide
-README_PASHTO.md                Pashto guide
 SECURITY.md                     Security reporting guidance
 CONTRIBUTING.md                 Contribution notes
 ```
 
-## Before you publish
-
-- Read the findings and check whether they apply to your app; a static scanner cannot know everything about runtime behaviour.
-- Test the app on real devices or emulators.
-- Check privacy declarations, account deletion, content rights, reviewer access and signing configuration yourself.
-- Never commit `.env` files, API keys, passwords, signing keys, provisioning profiles or customer data.
-- Read `SECURITY.md`, `CONTRIBUTING.md` and `LICENSE` before opening a pull request or redistributing the project.
-
-Bug reports are welcome. Please include your operating system, Python version and a short, redacted error message. Do not attach private production source code or credentials.
+ 
